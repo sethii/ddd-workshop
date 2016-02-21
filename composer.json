@@ -1,0 +1,17 @@
+{
+    "name": "adampolak1/ddd-workshop",
+    "require": {
+        "phpspec/phpspec": "~2.3",
+        "behat/behat": "dev-master#d4c821ca70c600ddeb75fcd365e3bd30eaba7194"
+    },
+    "authors": [
+        {
+            "name": "Adam Polak",
+            "email": "adam.polak@silence.pl"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {"psr-4": {"": "src","Tests\\":"tests"}}
+}
